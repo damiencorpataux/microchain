@@ -12,9 +12,18 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/damiencorpataux/microchain",
-    packages=setuptools.find_packages(),
+    packages=['microchain'],
+    install_requires=[
+        'esptool',
+        'rshell',
+        'ampy',
+        'pyserial',
+        'sh',
+        'requests',
+        'click',
+        'rich'],
+    python_requires='>=3.6',
     classifiers=[
         "Programming Language :: Python :: 3",
     ],
-    python_requires='>=3.6',
 )
