@@ -1,6 +1,6 @@
 esptool
 rshell
-ampy
+adafruit-ampy
 pyserial
 sh
 requests
