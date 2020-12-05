@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="microchain",
-    version="0.0.3",
+    version="0.0.4",
     author="Damien Corpataux",
     author_email="d@mien.ch",
     description="Toolchain for micropython and microcontrollers",

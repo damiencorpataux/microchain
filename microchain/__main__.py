@@ -19,7 +19,7 @@ class _config:
 
 @click.group(help='Toolchain for micropython and microcontrollers')
 @click.option('--port', default=_config.port, help='USB Port')
-@click.option('--project-path', default=_config.port, help='Micropython project path')
+@click.option('--project-path', default=_config.project_path, help='Micropython project path')
 @click.pass_context
 def cli(ctx, port, project_path):
     _config.port = port
